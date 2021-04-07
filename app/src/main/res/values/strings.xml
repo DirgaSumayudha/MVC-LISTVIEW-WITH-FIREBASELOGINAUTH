@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">List Game Engine</string>
+    <string name="name_engine">Nama Game Engine</string>
+    <string name="lorem">Lorem Ipsum dolor sit amet</string>
+
+    <string-array name="data_name">
+        <item>Cry Engine</item>
+        <item>Unreal Engine</item>
+        <item>Rage Engine</item>
+        <item>Infinity Ward Engine</item>
+        <item>Frosbite Engine </item>
+        <item>Creation Engine</item>
+        <item>Anvil Engine</item>
+        <item>ID Teach Engine</item>
+        <item>Hpl Engine</item>
+        <item>Unity Engine</item>
+        <item>Godot Engine</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Cry engine ini buatan dari Crytek. Sudah banyak game yang diciptakan melalui game engine ini dan grafisnya cukup bagus. Game yang berhasil di ciptakan antara lain : Crysis series, FarCry, Cabal 2, Sniper : Ghost Warrior 2, dll.</item>
+        <item>Kalau ini game engine kesukaan saya karena ini keluaran dari Epic Games yang menghasilkan framerate stabil, kualitas grafis yang bagus, dynamic shadow, HDRR, depth of field dan DX 11. Kabar baiknya Unreal Engine telah mengratiskan semua update-update yang dirilis Epic Games dan bisa digunakan untuk membuat apapun, baik game, keperluan edukasi, maupun film dan juga animasi tetapi ada syarat ketika gamenya dikomersialkan.
+Game yang berhasil diciptakan : Bioshock, Ragnarok Online 2, Lineage II, Mass Effect 1 2 3, dll.</item>
+        <item>Rage (Rockstar Advanced Game Engine) yang dibuat oleh Rockstar San Diego 2004 dan engine ini dibantu dengan Euphoria yang merupakan sofware 3D utama untuk membuat game MAX PAYNE 3. Kehebatan dari Game Engine ini dapat memuat game open world tanpa loading, AI yang memuaskan, Draw Distance Render yang jauh dan juga cuaca yang realistis.
+Game yang berhasil diciptakan : Grand Thief Auto IV – V, Max Payne 3, Midnight Club : Lost Angeles, dll.</item>
+        <item>Game engine ini dibuat oleh developer tanpa nama resmi yang di adaptasi dari ID Tech 3. Kehebatan dari Infinity Ward Engine adalah efek pencahayaan yang cukup realitis, AI yang kompleks dan cerdas, Depth Of Field, Dynamic Bullet Peneration, dll.
+Game yang berhasil diciptakan : Call Of Duty Series</item>
+        <item>Game Engine ini memberikan tampilan grafik yang cukup mengagumkan tapi sayang Game Engine ini tidak mendukung DX 9 dan Windows XP hanya mendukung menggunakan DX 11. Grafik yang ditampilkan cukup memuaskan.
+Game yang berhasil diciptakan : Battlefield Series, Need For Speed : The Run, dll.</item>
+        <item>Anda pasti pernah memainkan game The Elder Scrolls V : Skyrim. Ya ini, game engine yang dipake untuk membuat game Skyrim. Banyak orang yang berminat untuk main game Skyrim bahkan saya sendiri pun suka main gamenya karena dunianya begitu luas. Game Engine ini khusus untuk membuat game Skyrim dengan random Dungeon, mencari dan menemukan senjata hebat, Quest yang cukup enak di jalankan, Radiant AI, dapat memusuhi penduduk, melawan naga, dll.
+Game yang berhasil dicipatkan : The Elder Scrolls V : Skyrim</item>
+        <item>Anda pasti pernah main atau lihat game Assasin’s Creed, nah ternyata gamenya menggunakan Anvil Engine dan Ubisoft telah menciptakan game yang lebih banyak interaksi dengan lingkungan, Cuaca dan iklim dan AI Cerdas.
+Game yang berhasil diciptakan : Assasin;s Creed Series, Princes Of Persia : The Forgotten Sands, dll.</item>
+        <item>Game engine ini sudah cukup tua karena adalah kakek dari segala game FPS dan engine ini telah dimodifikasi agar banyak orang yang mainkan game hasil ciptaan dari ID Tech Engine. Game Engine ini sudah sampai ke 6. Kehebatan dari game engine ini bisa membuat MEGA TEXTURE dengan resolusi 128.000 x 128.000 pixel. Cukup luar biasa dan memiliki dunia yang dinamis dengan terrain editor yang simple tapi kompleks, Soft-Edged Shadows, HDRR, dll.
+Game yang berhasil diciptakan : Doom Series, Quake Series, Prey, dll.</item>
+        <item>Game engine ini dibuat oleh Developer Indie Frictional Games dan khusus untuk membuat GAME HORROR. HPL dapat digunakan dengan GE Cross-platform (PC, MAC, LINUX) yang kompatibel dengan OpenGL, OpenAL, dan Newton Games Dynamics. Fitur yang diberikan cukup menarik, yaitu memiliki pyhsics yang detail,  mendukung SSAO (Screen Space Ambient Occlusion), Interaksi Objek yang detail dan Deferred Shading.</item>
+        <item>Game engine terbaik berikutnya untuk Anda coba adalah Unity Engine. Software dari mesin ini diakui sebagai salah satu mesin terbaik yang pernah ada di dalam game.Platform mesin ini dikembangkan oleh perusahaan Unity Technologies dan dirilis pertama kali pada bulan juni 2005. Anda bisa menikmati kehebatan mesin ini pada permainan Book of the Dead yang juga merupakan salah satu game PC terbaik. Memiliki kualitas gambar yang sangat baik dengan pengelolaan tata cahaya yang presisi, membuat Anda bisa memainkan game seperti nyata. Unity Engine bisa menghasilkan permainan dalam bentuk 3D, 2D, augmented reality, realitas virtual, serta permainan simulasi. Selain itu, engine ini juga sudah support untuk menampilkan integrasi alat Illuminate Labs Beast Lightmap dan pemetaan UV otomatis.</item>
+        <item>Godot merupakan Mesin terbaru yang menawarkan pihak pengembang untuk menciptakan game bagus. Mesin ini sangat cocok untuk Anda yang ingin membuat game untuk platform mobile dalam bentuk 3D ataupun 2D. Hal ini dikarenakan terdapat berbagai fitur menarik dan terbaru yang sudah disesuaikan untuk pengguna mobile. Adanya engine ini membuat Anda bisa menciptakan grafik yang fantastik tanpa memerlukan aplikasi lain sebagai pendukung. Godot Engine juga memiliki sifat open source agar bisa menjadi alternatif bagi Anda yang ingin menekuni dunia dalam pengembangan permainan.</item>
+    </string-array>
+    <array name="data_photo">
+        <item>@drawable/_cryengine</item>
+        <item>@drawable/_unrealengine</item>
+        <item>@drawable/_rage</item>
+        <item>@drawable/_infinityward</item>
+        <item>@drawable/_frostbite</item>
+        <item>@drawable/_creationengine</item>
+        <item>@drawable/_anvilengine</item>
+        <item>@drawable/_idteachengine</item>
+        <item>@drawable/_hplengine</item>
+        <item>@drawable/_0unity</item>
+        <item>@drawable/_1godotengine</item>
+    </array>
+</resources>
