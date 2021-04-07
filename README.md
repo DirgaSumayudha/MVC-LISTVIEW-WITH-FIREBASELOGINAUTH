@@ -4,6 +4,9 @@ Untuk mendownload Langsung pada Device bisa cari File berekstensi .apk, lalu dow
 
 #KELOMPOK 5 Perograman Mobile Kelas A
 DIRGA SUMAYUDHA - F55118018
+
 DIGIT M. ASSAH – F55118019
+
 FARNLY STEFAN CUNGALIWA – F55118041
+
 M. ALDI APRIANTO – F55118049
