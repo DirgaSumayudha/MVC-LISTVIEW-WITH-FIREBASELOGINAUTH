@@ -6,7 +6,7 @@ import android.util.Patterns;
 public class User implements IUser {
     private String email,password;
 
-    public User(String email, String password){
+    public User(String email, String password, String s){
         this.email = email;
         this.password = password;
     }

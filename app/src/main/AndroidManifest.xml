@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MVC">
-        <activity android:name=".View.afterlogin3"></activity>
+        <activity android:name=".View.ForgotPassword"></activity>
+        <activity android:name=".View.RegisterUser" />
+        <activity android:name=".View.afterlogin3" />
         <activity android:name=".View.afterlogin2" />
         <activity android:name=".View.MainActivity">
             <intent-filter>

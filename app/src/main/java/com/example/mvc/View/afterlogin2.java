@@ -7,16 +7,19 @@ import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.mvc.Model.GameEngine;
 import com.example.mvc.R;
 import com.example.mvc.View.EngineAdapter;
 import com.example.mvc.View.afterlogin3;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 
 public class afterlogin2 extends AppCompatActivity {
+    private Button logout;
     private String[] dataName;
     private String [] dataDescription;
     private TypedArray dataPhoto;
@@ -31,6 +34,17 @@ public class afterlogin2 extends AppCompatActivity {
         listView.setAdapter(adapter);
         prepare();
         addItem();
+        logout = (Button)findViewById(R.id.signout);
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                logout();
+            }
+        });
+
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -61,5 +75,10 @@ public class afterlogin2 extends AppCompatActivity {
         dataName = getResources().getStringArray(R.array.data_name);
         dataDescription = getResources().getStringArray(R.array.data_description);
         dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
+    }
+
+    public void logout(){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
